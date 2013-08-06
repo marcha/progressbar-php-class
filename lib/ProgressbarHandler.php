@@ -15,7 +15,7 @@ class ProgressbarHandler
 		$this->max = $max;
 		$this->addClasses = $addClasses;
 		$this->id = mt_rand();
-		$this->idcontainer = $this->id.'_contrainer';
+		$this->idcontainer = $this->id.'_container';
 	}
 
 	public function insert()
