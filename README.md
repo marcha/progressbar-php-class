@@ -21,6 +21,7 @@ Insert the HTML Tags via echo(), when called.
 
 ###ProgressbarHandler::update()
 Insert Javascript to animate the Progressbar. Changes the width to ProgressbarHandler::$current
+Will only insert the javascript every 5%.
 
 ###ProgressbarHandler::hide($timeout)
 jQuery.FadeOut() the progressbar after $timeout.
