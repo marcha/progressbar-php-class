@@ -4,15 +4,13 @@ class ProgressbarHandler
 {
 	private $current 			= null;
 	private $last		 		= null;
-	private $max 				= null;
 	private $addClasses 			= null;
 	private $id				= null;
 	private $idcontainer			= null;
 
-	public function __construct($addClasses="", $max=100, $current=0)
+	public function __construct($addClasses="", $current=0)
 	{
 		$this->current = $current;
-		$this->max = $max;
 		$this->addClasses = $addClasses;
 		$this->id = mt_rand();
 		$this->idcontainer = $this->id.'_container';
