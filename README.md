@@ -1,7 +1,7 @@
 Progressbar PHP Class
 ======================
 
-A PHP class for displaying a progress bar with Bootstrap and jQuery.
+A PHP class for displaying a progress bar with Bootstrap and jQuery.  
 Take a look at the index.php for how to use it.
 
 **Bootstrap**:
@@ -20,7 +20,7 @@ The Status of the Progressbar, usual starts at 0.
 Insert the HTML Tags via echo(), when called.
 
 ###ProgressbarHandler::update()
-Insert Javascript to animate the Progressbar. Changes the width to ProgressbarHandler::$current
+Insert Javascript to animate the Progressbar. Changes the width to ProgressbarHandler::$current.  
 Will only insert the javascript every 5%.
 
 ###ProgressbarHandler::hide($timeout)
